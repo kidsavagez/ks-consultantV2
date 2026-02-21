@@ -1,0 +1,13 @@
+{
+  "name": "lexington-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=web",
+    "build": "npm run build --workspace=web",
+    "preview": "npm run preview --workspace=web"
+  }
+}
